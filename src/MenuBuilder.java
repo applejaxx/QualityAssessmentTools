@@ -1,98 +1,87 @@
 import bluej.extensions.*;
-import bluej.extensions.event.*;
-import java.net.URL;
+import javax.swing.*;
+import java.awt.event.*;
 
+/* This class shows how you can bind different menus to different parts of BlueJ
+ * Remember:
+ * - getToolsMenuItem, getClassMenuItem and getObjectMenuItem may be called by BlueJ at any time.
+ * - They must generate a new JMenuItem each time they are called.
+ * - No reference to the JMenuItem should be stored in the extension.
+ * - You must be quick in generating your menu.
+ */
+class MenuBuilder extends MenuGenerator {
 
-public class QualityExtension extends Extension implements PackageListener {
-    /*
-     * When this method is called, the extension may start its work.
-     */
-    public void startup (BlueJ bluej) {
-        // Register a generator for menu items
-        bluej.setMenuGenerator(new MenuBuilder());
+    private BPackage curPackage;
+    private BClass curClass;
+    private BObject curObject;
+    private JMenu menu;
+    private JMenuItem mi;
 
-        // Register a "preferences" panel generator
-        Preferences myPreferences = new Preferences(bluej);
-        bluej.setPreferenceGenerator(myPreferences);
-
-        // Listen for BlueJ events at the "package" level
-        bluej.addPackageListener(this);
+    public JMenu getToolsMenuItem(BPackage aPackage) {
+        menu = new JMenu("Quality tools");
+        mi = new JMenuItem(new SimpleAction("Checkstyle", "Checkstyle. \n work in progress"));
+        menu.add(mi);
+        mi = new JMenuItem(new SimpleAction("PMD", "PMD. \n work in progress"));
+        menu.add(mi);
+        return menu;
     }
 
-    /*
-     * A package has been opened. Print the name of the project it is part of.
-     * System.out is redirected to the BlueJ debug log file.
-     * The location of this file is given in the Help/About BlueJ dialog box.
-     */
-    public void packageOpened(PackageEvent ev)
-    {
-        try
-        {
-            System.out.println("Project " + ev.getPackage().getProject().getName()
-                    + " opened.");
-        }
-        catch (ExtensionException e)
-        {
-            System.out.println("Project closed by BlueJ");
-        }
+    // These methods will be called when
+    // each of the different menus are about to be invoked.
+
+    public void notifyPostToolsMenu(BPackage bp, JMenuItem jmi) {
+        System.out.println("Post on Tools menu");
+        curPackage = bp;
+        curClass = null;
+        curObject = null;
     }
 
-    /*
-     * A package is closing.
-     */
-    public void packageClosing(PackageEvent ev)
-    {
-    }
-    /*
-     * This method must decide if this Extension is compatible with the
-     * current release of the BlueJ Extensions API
-     */
-    public boolean isCompatible()
-    {
-        return true;
+    public void notifyPostClassMenu(BClass bc, JMenuItem jmi) {
+        System.out.println("Post on Class menu");
+        curPackage = null;
+        curClass = bc;
+        curObject = null;
     }
 
-    /*
-     * Returns the version number of this extension
-     */
-    public String getVersion ()
-    {
-        return ("0.0.1");
+    public void notifyPostObjectMenu(BObject bo, JMenuItem jmi) {
+        System.out.println("Post on Object menu");
+        curPackage = null;
+        curClass = null;
+        curObject = bo;
     }
 
-    /*
-     * Returns the user-visible name of this extension
-     */
-    public String getName ()
-    {
-        return ("Quality Assessment Tools");
-    }
+    // A utility method which pops up a dialog detailing the objects
+    // involved in the current (SimpleAction) menu invocation.
+    private void showCurrentStatus(String header) {
+        try {
+            if (curObject != null)
+                curClass = curObject.getBClass();
+            if (curClass != null)
+                curPackage = curClass.getPackage();
 
-    public void terminate()
-    {
-        System.out.println ("Quality Assessment Tool terminates");
-    }
-
-    public String getDescription ()
-    {
-        return ("Runs source code through both static and dynamic assessment tools");
-    }
-
-    /*
-     * Returns a URL where you can find info on this extension.
-     */
-    public URL getURL ()
-    {
-        try
-        {
-            return new URL("placeholder");
-        }
-        catch ( Exception e )
-        {
-            // The link is either dead or otherwise unreachable
-            System.out.println ("Quality Assessment Tools: getURL: Exception="+e.getMessage());
-            return null;
+            String msg = header;
+            if (curPackage != null)
+                msg += "\nCurrent Package = " + curPackage;
+            if (curClass != null)
+                msg += "\nCurrent Class = " + curClass;
+            if (curObject != null)
+                msg += "\nCurrent Object = " + curObject;
+            JOptionPane.showMessageDialog(null, msg);
+        } catch (Exception exc) {
         }
     }
 
+    // The nested class that instantiates the different (simple) menus.
+    class SimpleAction extends AbstractAction {
+        private String msgHeader;
+
+        public SimpleAction(String menuName, String msg) {
+            putValue(AbstractAction.NAME, menuName);
+            msgHeader = msg;
+        }
+
+        public void actionPerformed(ActionEvent anEvent) {
+            showCurrentStatus(msgHeader);
+        }
+    }
 }
