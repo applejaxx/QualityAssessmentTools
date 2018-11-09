@@ -10,7 +10,6 @@ import java.awt.event.*;
  * - You must be quick in generating your menu.
  */
 class MenuBuilder extends MenuGenerator {
-
     private BPackage curPackage;
     private BClass curClass;
     private BObject curObject;

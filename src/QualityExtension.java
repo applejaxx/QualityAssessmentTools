@@ -18,6 +18,7 @@ public class QualityExtension extends Extension implements PackageListener {
         // Listen for BlueJ events at the "package" level
         bluej.addPackageListener(this);
     }
+
     /*
      * A package has been opened. Print the name of the project it is part of.
      * System.out is redirected to the BlueJ debug log file.

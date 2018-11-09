@@ -9,6 +9,7 @@ class Preferences implements PreferenceGenerator {
     private JPanel myPanel;
     private JTextField tool;
     private BlueJ bluej;
+
     public static final String PROFILE_LABEL="QualityAssessmentTool";
 
     // Construct the panel, and initialise it from any stored values
