@@ -10,25 +10,19 @@ import java.awt.event.*;
  * - You must be quick in generating your menu.
  */
 class MenuBuilder extends MenuGenerator {
-
     private BPackage curPackage;
     private BClass curClass;
     private BObject curObject;
+    private JMenu menu;
+    private JMenuItem mi;
 
-    public JMenuItem getToolsMenuItem(BPackage aPackage) {
-
-        return new JMenuItem(new SimpleAction("Quality Assessment Tools", "Tools menu: \n Checkstyle \n JaCoCo \n PMD/CPD \n SpotBugs"));
-    }
-
-    public JMenuItem getClassMenuItem(BClass aClass) {
-
-        return new JMenuItem(new SimpleAction("Click Class", "Object menu"));
-
-    }
-
-    public JMenuItem getObjectMenuItem(BObject anObject) {
-
-        return new JMenuItem(new SimpleAction("Click Object", "Object menu:"));
+    public JMenu getToolsMenuItem(BPackage aPackage) {
+        menu = new JMenu("Quality tools");
+        mi = new JMenuItem(new SimpleAction("Checkstyle", "Checkstyle. \n work in progress"));
+        menu.add(mi);
+        mi = new JMenuItem(new SimpleAction("PMD", "PMD. \n work in progress"));
+        menu.add(mi);
+        return menu;
     }
 
     // These methods will be called when
@@ -55,7 +49,7 @@ class MenuBuilder extends MenuGenerator {
         curObject = bo;
     }
 
-    // A utility method which pops up a dialog detailing the objects 
+    // A utility method which pops up a dialog detailing the objects
     // involved in the current (SimpleAction) menu invocation.
     private void showCurrentStatus(String header) {
         try {
@@ -75,7 +69,6 @@ class MenuBuilder extends MenuGenerator {
         } catch (Exception exc) {
         }
     }
-
 
     // The nested class that instantiates the different (simple) menus.
     class SimpleAction extends AbstractAction {
