@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: checkstyle/checkstyle-all.jar
+Main-Class: com.puppycrawl.tools.checkstyle.plugins.bluej.CheckstyleEx
+ tension
+

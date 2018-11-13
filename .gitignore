@@ -1,5 +1,5 @@
 *.javac
 *.class
-.gitignore
+/out
 .idea
 .DS_Store
