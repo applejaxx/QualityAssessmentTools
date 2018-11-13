@@ -22,5 +22,5 @@ from the extension directory.
 #### How to use
 1. In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
 2. Select **CheckStyle** from drop down menu
-<br /> **NOTE** The PMD option is currently not fully implemented.
+<br /> **NOTE** The PMD option is currently not fully implemented...
 
