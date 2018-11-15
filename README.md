@@ -42,7 +42,7 @@ under QualityExtension.jar.
 <br /> **NOTE:** The PMD option is currently under development.
 
 #### Documents
-* [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/Backlog.md)
-* Product's [sprint](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/CurrentSprint.md) for the current delivery
-* [Life Cycle Process](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/LifeCycleProcess.md) that our team is using to develop the product
+* [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/ThirdDelivery/documents/Backlog.md)
+* Product's [sprint](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/ThirdDelivery/documents/CurrentSprint.md) for the current delivery
+* [Life Cycle Process](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/ThirdDelivery/documents/LifeCycleProcess.md) that our team is using to develop the product
 
