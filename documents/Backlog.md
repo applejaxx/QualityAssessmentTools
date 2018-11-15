@@ -1,19 +1,26 @@
-**User Stories backlog** <br />
-1. As a client, I want my program to be run through <B>Checkstyle</B> using Quality Assesment Tools extension<br />
-  <I>Acceptance Criteria:</I><br />
-  When I run Quality Assesment Tools extension, it will show all the checkstyle errors.
-2. As a client, I want my program to be run through <B>PMD/CPD</B> using Quality Assesment Tools extension<br />
-  <I>Acceptance Criteria:</I><br />
-  When I run Quality Assesment Tools extension, it will show all the PMD/CPD errors.
-3. As a client, I want my program to be run through <B>Spotbugs</B> using Quality Assesment Tools extension<br />
-  <I>Acceptance Criteria:</I><br />
-  When I run Quality Assesment Tools extension, it will show all the Spotbugs errors.
-4. As a client, I want my program to be run through <B>JaCoCo</B> using Quality Assesment Tools extension<br />
-  <I>Acceptance Criteria:</I><br />
-  When I run Quality Assesment Tools extension, it will show all the JaCoCo errors.
-5. As a user, I want to have a basic extension show up in BlueJ tool menu.<br />
-  <I>Acceptance Criteria:</I><br />
-  When I click on tools in BlueJ, I will see "Quality Assesment Tools" option.
-6. As a developer, I want to have a basic extension API implemented.<br />
-  <I>Acceptance Criteria:</I><br />
-  There is an API generated for Quality Assesment Tools extension.
+Go to https://gouda.msudenver.edu/redmine/projects/software-extension-renovators to see how our epic user stories are broken into goals.<br /><br />
+**User Stories backlog** <br />  
+* As a client, I want my program to be run through <B>PMD/CPD</B> using Quality Assesment Tools extension.<br />
+ 
+* As a client, I want my program to be run through <B>Spotbugs</B> using Quality Assesment Tools extension.<br />
+  
+* As a client, I want my program to be run through <B>JaCoCo</B> using Quality Assesment Tools extension.<br />
+
+* As a client, I want instructions provided on how to use the extension.<br /> 
+
+* As a client, I want to be able to see CurrentSprint.md, which will show user stories for the current delivery.<br />
+
+* As a client, I want to be able to find what licences are used for the project.<br />
+
+* As a client, I want to be able to see every delivery ever made.<br />
+
+* As a developer, I want QualityAssessmentTools extension to produce "under development" window for the tools that are not implemented yet in the cascading menu.<br />
+
+**Completed User Stories**
+* As a client, I want my program to be run through <B>Checkstyle</B> using Quality Assesment Tools extension.<br />
+
+* As a user, I want to have a basic extension show up in BlueJ tool menu.<br />
+
+* As a developer, I want to have a basic extension API implemented.<br />
+
+* As a developer, I want QualityAssessmentTools to have cascading menu for tools that it will offer.<br />
