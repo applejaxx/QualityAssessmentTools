@@ -21,7 +21,7 @@ tools. At the current stage QualityAssessmentTools extension provides Checkstyle
 [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
 
 #### Downloads
-The latest version of the QualityAssessmentTools can be found [on the GitHub reposisitory](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools)
+The latest version of the QualityAssessmentTools can be found [on the GitHub reposisitory](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/ThirdDelivery)
 under QualityExtension.jar.
 
 #### Installation Instructions
