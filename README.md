@@ -15,7 +15,7 @@
 
 #### Overview
 The main goal of this extensions is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment 
-tools. At the current stage QualityAssessmentTools extension provides Checkstyle that helps users of BlueJ write Java code that complies to a coding standards.
+tools. At the current stage QualityAssessmentTools extension provides Checkstyle that helps users of BlueJ write Java code that complies to a coding standards. This project is a continuation of [Checkstyle4BlueJ extension](https://github.com/MetroCS/checkstyle4bluej).
 
 #### Requirements
 [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
