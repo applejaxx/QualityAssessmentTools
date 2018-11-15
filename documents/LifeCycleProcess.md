@@ -8,7 +8,7 @@
 * Users
 
 ### Authors:
-* Egor Muscat | 
+* Egor Muscat | emuscat1@msudenver.edu
 * Mark Huntington |
 * Jackie Nugent | jnugent3@msudenver.edu
 * Zachary Champion | 
