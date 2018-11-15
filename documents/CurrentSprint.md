@@ -16,10 +16,9 @@
 
 
 ## Useful information about current delivery
-* Updated the Backlog.md. Inside you can find a link to our Redmine project management tool.
-  * go to https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools then click on documents folder to find it.
+* Updated the [Backlog.md](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/ThirdDelivery/documents/Backlog.md). Inside you can find a link to our Redmine project management tool.
 * Created a Sprint text file for the current delivery(ThirdDelivery).
-* For this delivery we have updated our github repository with branches FirstDelivery, SecondDelivery so that it is convenient to track what has been done in previous versions of a product.
+* For this delivery we have updated our github repository with branches FirstDelivery, SecondDelivery so that it is convinient to track what has been done in previous versions of a product.
 * Licences have been updated.
 * Updated README.md with detailed instructions, authors, acknowledgement.
 
