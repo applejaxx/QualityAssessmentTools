@@ -25,7 +25,7 @@ The latest version of the QualityAssessmentTools can be found [on the GitHub rep
 under QualityExtension.jar.
 
 #### Installation Instructions
-* Download the latest [QualityExtension.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/QualityExtension.jar)
+* Download the latest [QualityExtension.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/ThirdDelivery/QualityExtension.jar)
 * Place the jar file in BlueJ's extension directory.
   * For Windows or Unix:
   * Navigate to a BlueJ directory
