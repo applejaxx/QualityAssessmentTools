@@ -1,3 +1,4 @@
+Go to https://gouda.msudenver.edu/redmine/projects/software-extension-renovators how our epic user stories are broken into goals.
 **User Stories backlog** <br />
 1. As a client, I want my program to be run through <B>Checkstyle</B> using Quality Assesment Tools extension.<br />
   
