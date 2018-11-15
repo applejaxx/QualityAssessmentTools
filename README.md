@@ -16,15 +16,14 @@ under QualityExtension.jar.
 #### Installation Instructions
 1. Download the latest [QualityExtension.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/QualityExtension.jar)
 2. Place the jar file in BlueJ's extension directory. 
-<br />For Windows or Unix:
-<br />* Navigate to a BlueJ directory.
-<br />* While in the directory, place QualityExtension.jar in lib/extensions.
-<br />For Mac OSX:
-<br />* Control+click BlueJ.app and choose Show Package Contents.
-<br />* Navigate to Contents/Resources/Java/extensions/
-<br />* Place QualityExtension.jar in current folder.
-<br />
-<br /> **NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current QualityExtension.jar and any of the Checkstyle.jar equivalents from the extension directory.
+For Windows or Unix:<br />
+* Navigate to a BlueJ directory.<br />
+* While in the directory, place QualityExtension.jar in lib/extensions.<br />
+For Mac OSX:<br />
+* Control+click BlueJ.app and choose Show Package Contents.<br />
+* Navigate to Contents/Resources/Java/extensions/<br />
+* Place QualityExtension.jar in current folder.<br />
+**NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current QualityExtension.jar and any of the Checkstyle.jar equivalents from the extension directory.
 
 #### How to use
 1. In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
