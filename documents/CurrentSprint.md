@@ -1,4 +1,4 @@
-**ThirdDelivery sprint**
+## ThirdDelivery sprint
 
 * As a user, I want instructions provided on how to use the extension.<br />  (completed)
 
