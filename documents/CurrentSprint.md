@@ -4,7 +4,7 @@
 
 * As a user, I want to be able to find what licences are used for the project.<br />(completed)
 
-* As a user, I want my program to be run through PMD/CPD using Quality Assesment Tools extension.<br />
+* As a user, I want my program to be run through PMD/CPD using QualityAssessmentTools extension.<br />
   ##### Subtasks:
   * Analysis and code review of broken PMD extension (completed)
 
