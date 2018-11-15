@@ -2,11 +2,20 @@
 
 ## QualityAssessmentTools Extension for BlueJ
 
+### Authors
+* Egor Muscat | emuscat1@msudenver.edu
+* Mark Huntington |
+* Jackie Nugent | jnugent3@msudenver.edu
+* Zachary Champion | zchampio@msudenver.edu
+
+### Acknowledgement
+* QualityAssessmentTools code is based on Checkstyle4BlueJ extenstion which can be found at https://github.com/MetroCS/checkstyle4bluej
+
 ### Usage Instructions
 
 #### Overview
 The main goal of this extensions is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment 
-tools. At the current stage QualityAssessmentTools extension provides Checkstyle that helps users of BlueJ write Java code that complies to a coding standards.
+tools. At the current stage QualityAssessmentTools extension provides Checkstyle that helps users of BlueJ write Java code that complies to a coding standards. This project is a continuation of [Checkstyle4BlueJ extension](https://github.com/MetroCS/checkstyle4bluej).
 
 #### Requirements
 [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
@@ -31,12 +40,3 @@ under QualityExtension.jar.
 1. In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
 2. Select **CheckStyle** from drop down menu
 <br /> **NOTE:** The PMD option is currently under development.
-
-### Useful information about current delivery
-* Updated the Backlog.md. Inside you can find a link to our Redmine project management tool.
-  * go to https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools then click on documents folder to find it.
-* Created a Sprint.md for the current delivery(ThirdDelivery).
-* For this delivery we have updated our github repository with branches FirstDelivery, SecondDelivery so that it is convinient to track what has been done in previous versions of a product.
-* Licences have been updated.
-* Cascaded menu that QualityAssessmentTools produces now displays more tools that will be implemented later.
-* Menu items that are not implemented yet now display appropriate "under development" window when clicked on.
