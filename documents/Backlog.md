@@ -4,15 +4,15 @@ Go to https://gouda.msudenver.edu/redmine/projects/software-extension-renovators
 
 * As a user, I want to be able to find what licences are used for the project.<br />
 
+* As a user, I want my program to be run through <B>PMD/CPD</B> using Quality Assesment Tools extension.<br />
+ 
+* As a user, I want my program to be run through <B>Spotbugs</B> using Quality Assesment Tools extension.<br />
+  
+* As a user, I want my program to be run through <B>JaCoCo</B> using Quality Assesment Tools extension.<br /> 
+
 * As a client, I want to be able to see CurrentSprint.md, which will show user stories for the current delivery.<br />
 
 * As a client, I want to be able to see every delivery ever made.<br />
-
-* As a client, I want my program to be run through <B>PMD/CPD</B> using Quality Assesment Tools extension.<br />
- 
-* As a client, I want my program to be run through <B>Spotbugs</B> using Quality Assesment Tools extension.<br />
-  
-* As a client, I want my program to be run through <B>JaCoCo</B> using Quality Assesment Tools extension.<br /> 
 
 * As a developer, I want QualityAssessmentTools extension to produce "under development" window for the tools that are not implemented yet in the cascading menu.<br />
 
