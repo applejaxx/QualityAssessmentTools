@@ -23,7 +23,7 @@ under QualityExtension.jar.
   * Control+click BlueJ.app and choose Show Package Contents
   * Navigate to Contents/Resources/Java/extensions/
   * Place QualityExtension.jar in current folder
-**NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current QualityExtension.jar and any of the Checkstyle.jar equivalents from the extension directory.
+* **NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current QualityExtension.jar and any of the Checkstyle.jar equivalents from the extension directory.
 
 ### How to use
 1. In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
