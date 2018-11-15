@@ -6,10 +6,10 @@
 * Egor Muscat | emuscat1@msudenver.edu
 * Mark Huntington |
 * Jackie Nugent | jnugent3@msudenver.edu
-* Zachary Champion | 
+* Zachary Champion | zchampio@msudenver.edu
 
-### Acknolegement
-* QualityAssessmentTools code is based on Checkstyle4BlueJ extenstion which can be found at https://github.com/SoftwareExtensionRenovators/checkstyle4bluej
+### Acknowledgement
+* QualityAssessmentTools code is based on Checkstyle4BlueJ extenstion which can be found at https://github.com/MetroCS/checkstyle4bluej
 
 ### Usage Instructions
 
