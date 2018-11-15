@@ -4,11 +4,11 @@ Go to https://gouda.msudenver.edu/redmine/projects/software-extension-renovators
 
 * As a user, I want to be able to find what licences are used for the project.<br />
 
-* As a user, I want my program to be run through <B>PMD/CPD</B> using Quality Assesment Tools extension.<br />
+* As a user, I want my program to be run through <B>PMD/CPD</B> using QualityAssessmentTools extension.<br />
  
-* As a user, I want my program to be run through <B>Spotbugs</B> using Quality Assesment Tools extension.<br />
+* As a user, I want my program to be run through <B>Spotbugs</B> using QualityAssessmentTools extension.<br />
   
-* As a user, I want my program to be run through <B>JaCoCo</B> using Quality Assesment Tools extension.<br /> 
+* As a user, I want my program to be run through <B>JaCoCo</B> using QualityAssessmentTools extension.<br /> 
 
 * As a client, I want to be able to see CurrentSprint.md, which will show user stories for the current delivery.<br />
 
@@ -19,7 +19,7 @@ Go to https://gouda.msudenver.edu/redmine/projects/software-extension-renovators
 **Completed User Stories before current delivery**
 * As a user, I want to have a basic extension show up in BlueJ tool menu.<br />
 
-* As a client, I want my program to be run through <B>Checkstyle</B> using Quality Assesment Tools extension.<br />
+* As a client, I want my program to be run through <B>Checkstyle</B> using QualityAssessmentTools extension.<br />
 
 * As a developer, I want to have a basic extension API implemented.<br />
 
