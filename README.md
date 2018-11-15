@@ -37,6 +37,12 @@ under QualityExtension.jar.
 * **NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current QualityExtension.jar and any of the Checkstyle.jar equivalents from the extension directory.
 
 #### How to use
-1. In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
-2. Select **CheckStyle** from drop down menu
+* In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
+* Select **CheckStyle** from drop down menu
 <br /> **NOTE:** The PMD option is currently under development.
+
+#### Documents
+* [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/Backlog.md)
+* Product's [sprint](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/CurrentSprint.md) for the current delivery
+* [Life Cycle Process](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/LifeCycleProcess.md) that our team is using to develop the product
+
