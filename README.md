@@ -2,6 +2,15 @@
 
 ## QualityAssessmentTools Extension for BlueJ
 
+### Authors
+* Egor Muscat | emuscat1@msudenver.edu
+* Mark Huntington |
+* Jackie Nugent | jnugent3@msudenver.edu
+* Zachary Champion | 
+
+### Acknolegement
+* QualityAssessmentTools code is based on Checkstyle4BlueJ extenstion which can be found at https://github.com/SoftwareExtensionRenovators/checkstyle4bluej
+
 ### Usage Instructions
 
 #### Overview
