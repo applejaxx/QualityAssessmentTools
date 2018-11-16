@@ -44,3 +44,19 @@ under QualityExtension.jar.
 * [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/Backlog.md)
 * Product's [sprint](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/CurrentSprint.md) for the current delivery
 * [Life Cycle Process](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/LifeCycleProcess.md) that our team is using to develop the product
+
+#### Licensing
+
+This software is licensed under the terms in the file named "LICENSE" in this
+directory.
+
+The software uses the ANTLR package (http://www.antlr.org). Its license terms
+are in the file named "RIGHTS.antlr" in this directory.
+
+The software uses the Jakarta Regexp package
+(http://jakarta.apache.org/regexp) and several packages from the
+Jakarta Commons project (http://jakarta.apache.org/commons).
+The license terms of these packages are in the file named
+"LICENSE.apache" in this directory.
+
+
