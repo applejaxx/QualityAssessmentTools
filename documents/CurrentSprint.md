@@ -2,9 +2,9 @@
 
 * As a user, I want instructions provided on how to use the extension.<br />  (completed)
 
-* As a user, I want to be able to find what licences are used for the project.<br />(completed)
+* As a user, I want to be able to find what licenses are used for the project.<br />(completed)
 
-* As a user, I want my program to be run through PMD/CPD using QualityAssessmentTools extension.<br />
+* As a user, I want my program to be run through PMD/CPD using the Quality Assessment Tools extension.<br />
   ##### Subtasks:
   * Analysis and code review of broken PMD extension (completed)
 
@@ -18,10 +18,10 @@
 ## Useful information about current delivery
 * Updated the [Backlog.md](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/ThirdDelivery/documents/Backlog.md). Inside you can find a link to our Redmine project management tool.
 * Created a Sprint text file for the current delivery(ThirdDelivery).
-* For this delivery we have updated our github repository with branches FirstDelivery, SecondDelivery so that it is convenient to track what has been done in previous versions of a product.
-* Licences have been updated.
+* For this delivery, we have updated our github repository with branches 'FirstDelivery' & 'SecondDelivery' so that it is convenient to track what has been done in previous versions of a product.
+* Licenses have been updated.
 * Updated README.md with detailed instructions, authors, acknowledgement.
 
 
 ## TODO
-* Cascaded menu that QualityAssessmentTools produces need to be removed.
+* Cascaded menu that the Quality Assessment Tools produces needs to be removed.
