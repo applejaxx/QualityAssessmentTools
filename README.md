@@ -44,6 +44,7 @@ under QualityExtension.jar.
 * [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/Backlog.md)
 * Product's [sprint](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/CurrentSprint.md) for the current delivery
 * [Life Cycle Process](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/LifeCycleProcess.md) that our team is using to develop the product
+* [PMD analysis](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/ThirdDelivery/documents/PMDAnalysis.md)
 
 #### Licensing
 
