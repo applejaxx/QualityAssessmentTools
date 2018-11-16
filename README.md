@@ -14,7 +14,7 @@
 ### Usage Instructions
 
 #### Overview
-The main goal of this extension is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment tools. At the current stage, the QualityAssessmentTools extension provides Checkstyle, which helps BlueJ users write Java code that complies to coding standards. This project is a continuation of [Checkstyle4BlueJ extension](https://github.com/MetroCS/checkstyle4bluej).
+The main goal of this extension is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment tools. At the current stage, the QualityAssessmentTools extension provides Checkstyle, which helps BlueJ users write Java code that complies to a coding standard. This project is a continuation of [Checkstyle4BlueJ extension](https://github.com/MetroCS/checkstyle4bluej).
 
 #### Requirements
 [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
@@ -32,7 +32,7 @@ under QualityExtension.jar.
 * For Mac OSX:
   * Control+click BlueJ.app and choose Show Package Contents
   * Navigate to Contents/Resources/Java/extensions/
-  * Place QualityExtension.jar in current folder
+  * Place QualityExtension.jar in the folder
 * **NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current QualityExtension.jar and any of the Checkstyle.jar equivalents from the extension directory.
 
 #### How to use
