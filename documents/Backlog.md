@@ -2,25 +2,25 @@ Go to https://gouda.msudenver.edu/redmine/projects/software-extension-renovators
 **User Stories backlog** <br />
 * As a user, I want instructions provided on how to use the extension.<br />
 
-* As a user, I want to be able to find what licences are used for the project.<br />
+* As a user, I want to be able to find what licenses are used for the project.<br />
 
-* As a user, I want my program to be run through <B>PMD/CPD</B> using QualityAssessmentTools extension.<br />
+* As a user, I want my program to be run through <B>PMD/CPD</B> using the Quality Assessment Tools extension.<br />
  
-* As a user, I want my program to be run through <B>Spotbugs</B> using QualityAssessmentTools extension.<br />
+* As a user, I want my program to be run through <B>Spotbugs</B> using the Quality Assessment Tools extension.<br />
   
-* As a user, I want my program to be run through <B>JaCoCo</B> using QualityAssessmentTools extension.<br /> 
+* As a user, I want my program to be run through <B>JaCoCo</B> using the Quality Assessment Tools extension.<br /> 
 
 * As a client, I want to be able to see CurrentSprint.md, which will show user stories for the current delivery.<br />
 
 * As a client, I want to be able to see every delivery ever made.<br />
 
-* As a developer, I want QualityAssessmentTools extension to produce "under development" window for the tools that are not implemented yet in the cascading menu.<br />
+* As a developer, I want the QualityAssessmentTools extension to produce an "under development" window for the tools that are not implemented yet in the cascading menu.<br />
 
 **Completed User Stories before current delivery**
-* As a user, I want to have a basic extension show up in BlueJ tool menu.<br />
+* As a user, I want to have a basic extension show up in the BlueJ tool menu.<br />
 
-* As a client, I want my program to be run through <B>Checkstyle</B> using QualityAssessmentTools extension.<br />
+* As a client, I want my program to be run through <B>Checkstyle</B> using the Quality Assessment Tools extension.<br />
 
 * As a developer, I want to have a basic extension API implemented.<br />
 
-* As a developer, I want QualityAssessmentTools to have cascading menu for tools that it will offer.<br />
+* As a developer, I want QualityAssessmentTools to have a cascading menu for tools that it will offer.<br />
