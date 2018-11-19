@@ -82,18 +82,18 @@ public class CheckstyleExtension extends Extension
     private Set<File> mCompilingFiles = new HashSet<File>();
 
     /** extension name */
-    private static final String NAME = "Checkstyle";
+    private static final String NAME = "Quality Assessment Tools";
 
     /** extension description */
     private static final String DESCRIPTION =
-        "Checks that Java source code adheres to a coding standard.";
+        "Assesses Java source code with various quality tools.";
 
     /**  extension version */
-    private static final String VERSION = "5.4.1";
+    private static final String VERSION = "0.0.1";
 
     /** extension URL */
     private static final String URL =
-        "http://github.com/MetroCS/checkstyle4bluej/";
+        "https://placeholder/";
 
     /** @see bluej.extensions.event.PackageListener */
     private class CheckstylePackageListener implements PackageListener

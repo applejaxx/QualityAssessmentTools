@@ -22,35 +22,37 @@ package com.puppycrawl.tools.checkstyle.plugins.bluej;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
 
-import bluej.extensions.BPackage;
-import bluej.extensions.MenuGenerator;
+import javax.swing.*;
+
+import bluej.extensions.*;
 
 /**
  * Manages the Quality Assessment Tools extension menu items
  * @author Rick Giles
  * @version $Id: ExtensionMenu.java,v 1.5 2007/08/19 03:13:53 stedwar2 Exp $
  */
-public class ExtensionMenu extends MenuGenerator
-{
+public class ExtensionMenu extends MenuGenerator {
     /**
      * @see bluej.extensions.MenuGenerator#getToolsMenuItem(bluej.extensions.BPackage)
      */
+
     public JMenuItem getToolsMenuItem(BPackage aPackage) {
-        final JMenu menu = new JMenu("Quality Assessment Tools");
 
-        final JMenuItem checkstyle = new JMenuItem("Checkstyle");
-        menu.add(checkstyle);
-        checkstyle.addActionListener(new MenuAction());
+        final JMenu toolsMenu = new JMenu("Quality Assessment Tools");
 
-        final JMenuItem pmd = new JMenuItem("PMD");
-        menu.add(pmd);
+        final JMenuItem checkstyleMenu = new JMenuItem("Checkstyle");
+        checkstyleMenu.addActionListener(new MenuAction());
 
-        return menu;
+        final JMenuItem pmdMenu = new JMenuItem("PMD");
+        pmdMenu.addActionListener(new PMDAction(aPackage));
+
+        toolsMenu.add(checkstyleMenu);
+        toolsMenu.add(pmdMenu);
+
+        return toolsMenu;
+
     }
-
     /**
      * @see bluej.extensions.MenuGenerator#getMenuItem()
      * @deprecated
@@ -80,4 +82,6 @@ public class ExtensionMenu extends MenuGenerator
             CheckstyleExtension.getInstance().showAuditFrame();
         }
     }
+
+
 }
