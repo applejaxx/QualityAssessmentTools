@@ -16,3 +16,4 @@
 
 ## TODO
 * PMD is implemented but still needs to have preference options added for user path input to the current PMD directory.
+* Update licences.
