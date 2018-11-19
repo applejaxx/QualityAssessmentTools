@@ -1,6 +1,6 @@
 ## FourthDelivery Sprint
 
-* As a user, I want my program to be run through PMD/CPD using the Quality Assesment Tools extension.<br />
+* As a user, I want my program to be run through PMD/CPD using the Quality Assessment Tools extension.<br />
   ##### Subtasks:
   * Implement PMD on the package level. (complete)
   * Update extension to implement PMD.(complete)
