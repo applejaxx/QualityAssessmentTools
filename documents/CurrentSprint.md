@@ -13,4 +13,4 @@
 
 
 ## TODO
-* * PMD is implemented but still needs to have preference options added for user path input to the current PMD directory that can be downloaded [here](https://pmd.github.io/#downloads).
+* PMD is implemented but still needs to have preference options added for user path input to the current PMD directory that can be downloaded [here](https://pmd.github.io/#downloads).
