@@ -27,7 +27,7 @@ The latest version of the QualityAssessmentTools can be found [on the GitHub rep
 under checkstyle-extension-5.4.1.jar.
 
 #### Installation Instructions
-* Download the latest [checkstyle-extension-5.4.1.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/checkstyle-extension-5.4.1.jar)
+* Download the latest [checkstyle-extension-5.4.1.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/FourthDelivery/checkstyle-extension-5.4.1.jar)
 * Place the jar file in BlueJ's extension directory.
   * For Windows or Unix:
   * Navigate to a BlueJ directory
@@ -42,12 +42,12 @@ under checkstyle-extension-5.4.1.jar.
 * In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
 * Select **CheckStyle** from drop down menu
 * Select **PMD** from the drop down menu 
-<br /> **NOTE:** The PMD tool is currently under development. Options to include a pathway to a user specific directory will be included in the next sprint. PMD will throw a 'file not found' error until the preference options are implemented. Currently, MAC OS is supported and working. If you decide you want to add the path yourself to [PMDAction.java](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/src/checkstyle/com/puppycrawl/tools/checkstyle/plugins/bluej/PMDAction.java) line 38 (has to include the path to the location where your PMD is installed) you would be able to use PMD.
+<br /> **NOTE:** The PMD tool is currently under development. Options to include a pathway to a user specific directory will be included in the next sprint. PMD will throw a 'file not found' error until the preference options are implemented. Currently, MAC OS is supported and working. If you decide you want to add the path yourself to [PMDAction.java](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/FourthDelivery/src/checkstyle/com/puppycrawl/tools/checkstyle/plugins/bluej/PMDAction.java) line 38 (has to include the path to the location where your PMD is installed) you would be able to use PMD.
 
 #### Documents
-* [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/Backlog.md)
-* Product's [sprint](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/CurrentSprint.md) for the current delivery
-* [Life Cycle Process](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/LifeCycleProcess.md) that our team is using to develop the product
+* [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/FourthDelivery/documents/Backlog.md)
+* Product's [sprint](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/FourthDelivery/documents/CurrentSprint.md) for the current delivery
+* [Life Cycle Process](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/FourthDelivery/documents/LifeCycleProcess.md) that our team is using to develop the product
 
 #### Licensing
 
