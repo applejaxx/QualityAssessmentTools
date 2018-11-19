@@ -10,9 +10,9 @@
 * **NOTE:** * PMD was implemented into QualityAssesmentTools using MAC OS, Windows OS might not be working correctly yet.
 
 ## Useful information about current delivery
-* Updated the [Backlog.md](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/ThirdDelivery/documents/Backlog.md). Inside you can find a link to our Redmine project management tool.
+* Updated the [Backlog.md](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/FourthDelivery/documents/Backlog.md). Inside you can find a link to our Redmine project management tool.
 * Updated README.md with detailed instructions, authors, and acknowledgements.
 
 
 ## TODO
-* PMD is implemented but still needs to have preference options added for user path input to the current PMD directory that can be downloaded [here](https://pmd.github.io/#downloads).
+* PMD is implemented but still needs to have preference options added for user path input to the current PMD directory.
