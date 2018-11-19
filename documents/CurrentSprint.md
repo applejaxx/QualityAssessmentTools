@@ -1,27 +1,16 @@
-## ThirdDelivery sprint
-
-* As a user, I want instructions provided on how to use the extension.<br />  (completed)
-
-* As a user, I want to be able to find what licenses are used for the project.<br />(completed)
+## FourthDelivery Sprint
 
 * As a user, I want my program to be run through PMD/CPD using the Quality Assesment Tools extension.<br />
   ##### Subtasks:
-  * Analysis and code review of broken PMD extension (completed)
-
-* As a client, I want to be able to see CurrentSprint.md, which will show user stories for the current delivery. (completed)
-
-* As a client, I want to be able to see every delivery ever made.<br /> (completed)
-
-
-
+  * Update extension to implement PMD.(complete)
+  * Implement PMD on the package level. (complete)
+  * Update Preferences to include option for user to input directory. (TODO)
+  
 
 ## Useful information about current delivery
 * Updated the [Backlog.md](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/ThirdDelivery/documents/Backlog.md). Inside you can find a link to our Redmine project management tool.
-* Created a Sprint text file for the current delivery(ThirdDelivery).
-* For this delivery we have updated our github repository with branches 'FirstDelivery' and 'SecondDelivery' so that it is convenient to track what has been done in previous versions of a product.
-* Licenses have been updated.
 * Updated README.md with detailed instructions, authors, and acknowledgements.
 
 
 ## TODO
-* Cascading menu that Quality Assessment Tools produces needs to be removed.
+* * PMD is implemented but still needs to have preference options added for user path input to the current PMD directory that can be downloaded [here](https://pmd.github.io/#downloads).
