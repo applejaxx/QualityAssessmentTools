@@ -2,10 +2,12 @@
 
 * As a user, I want my program to be run through PMD/CPD using the Quality Assesment Tools extension.<br />
   ##### Subtasks:
-  * Update extension to implement PMD.(complete)
   * Implement PMD on the package level. (complete)
+  * Update extension to implement PMD.(complete)
+  * Implement PMD into QualityAssessmentTools extension. (partially complete)*
   * Update Preferences to include option for user to input directory. (TODO)
   
+* **NOTE:** * PMD was implemented into QualityAssesmentTools using MAC OS, Windows OS might not be working correctly yet.
 
 ## Useful information about current delivery
 * Updated the [Backlog.md](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/ThirdDelivery/documents/Backlog.md). Inside you can find a link to our Redmine project management tool.
