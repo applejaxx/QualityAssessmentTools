@@ -9,36 +9,39 @@
 * Zachary Champion | zchampio@msudenver.edu
 
 ### Acknowledgement
-* QualityAssessmentTools code is based on Checkstyle4BlueJ extenstion which can be found at https://github.com/MetroCS/checkstyle4bluej
+* QualityAssessmentTools code is based on Checkstyle4BlueJ extension which can be found at https://github.com/MetroCS/checkstyle4bluej
+
+* Reference: pmd-bluej extension which can be found at https://github.com/pmd/pmd-bluej
 
 ### Usage Instructions
 
 #### Overview
-The main goal of this extension is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment tools. At the current stage, the QualityAssessmentTools extension provides Checkstyle, which helps BlueJ users write Java code that complies to a coding standards. This project is a continuation of [Checkstyle4BlueJ extension](https://github.com/MetroCS/checkstyle4bluej).
+The main goal of this extension is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment tools. At the current stage, the QualityAssessmentTools extension provides Checkstyle and PMD, which helps BlueJ users write Java code that complies to a coding standards. This project is a continuation of [Checkstyle4BlueJ extension](https://github.com/MetroCS/checkstyle4bluej).
 
 #### Requirements
 [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
 
 #### Downloads
-The latest version of the QualityAssessmentTools can be found [on the GitHub reposisitory](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools)
-under QualityExtension.jar.
+The latest version of the QualityAssessmentTools can be found [on the GitHub repository](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools)
+under checkstyle-extension-5.4.1.jar.
 
 #### Installation Instructions
-* Download the latest [QualityExtension.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/QualityExtension.jar)
+* Download the latest [checkstyle-extension-5.4.1.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/checkstyle-extension-5.4.1.jar)
 * Place the jar file in BlueJ's extension directory.
   * For Windows or Unix:
   * Navigate to a BlueJ directory
-  * While in the directory, place QualityExtension.jar in lib/extensions
+  * While in the directory, place checkstyle-extension-5.4.1.jar in lib/extensions
 * For Mac OSX:
   * Control+click BlueJ.app and choose Show Package Contents
   * Navigate to Contents/Resources/Java/extensions/
-  * Place QualityExtension.jar in current folder
-* **NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current QualityExtension.jar and any of the Checkstyle.jar equivalents from the extension directory.
+  * Place checkstyle-extension-5.4.1.jar in current folder
+* **NOTE:** If you are upgrading from previous version of QualityExtension or have any Checkstyle extensions active, remove your current checkstyle-extension-5.4.1.jar and any equivalents from the extension directory.
 
 #### How to use
 * In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
 * Select **CheckStyle** from drop down menu
-<br /> **NOTE:** The PMD option is currently under development.
+* Select **PMD** from the drop down menu 
+<br /> **NOTE:** The PMD tool is currently under development. Options to include a pathway to a user specific directory will be included in the next sprint. PMD will throw a 'file not found' error until the preference options are implemented. 
 
 #### Documents
 * [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/Backlog.md)
