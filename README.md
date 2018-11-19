@@ -20,6 +20,7 @@ The main goal of this extension is to provide [BlueJ](https://bluej.org/) users 
 
 #### Requirements
 [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
+[PMD](https://sourceforge.net/projects/pmd/files/pmd/) latest version.
 
 #### Downloads
 The latest version of the QualityAssessmentTools can be found [on the GitHub repository](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools)
@@ -41,7 +42,7 @@ under checkstyle-extension-5.4.1.jar.
 * In BlueJ, select **Quality Assessment Tool** from the **Tools** menu
 * Select **CheckStyle** from drop down menu
 * Select **PMD** from the drop down menu 
-<br /> **NOTE:** The PMD tool is currently under development. Options to include a pathway to a user specific directory will be included in the next sprint. PMD will throw a 'file not found' error until the preference options are implemented. 
+<br /> **NOTE:** The PMD tool is currently under development. Options to include a pathway to a user specific directory will be included in the next sprint. PMD will throw a 'file not found' error until the preference options are implemented. Currently, MAC OS is supported and working. If you decide you want to add the path yourself to [PMDAction.java](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/src/checkstyle/com/puppycrawl/tools/checkstyle/plugins/bluej/PMDAction.java) line 38 (has to include the path to the location where your PMD is installed) you would be able to use PMD.
 
 #### Documents
 * [Product backlog](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/documents/Backlog.md)
