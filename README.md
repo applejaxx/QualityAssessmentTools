@@ -19,8 +19,8 @@
 The main goal of this extension is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment tools. At the current stage, the QualityAssessmentTools extension provides Checkstyle and PMD, which helps BlueJ users write Java code that complies to a coding standards. This project is a continuation of [Checkstyle4BlueJ extension](https://github.com/MetroCS/checkstyle4bluej).
 
 #### Requirements
-[BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
-[PMD](https://sourceforge.net/projects/pmd/files/pmd/) latest version.
+* [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
+* [PMD](https://sourceforge.net/projects/pmd/files/pmd/) latest version.
 
 #### Downloads
 The latest version of the QualityAssessmentTools can be found [on the GitHub repository](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools)
