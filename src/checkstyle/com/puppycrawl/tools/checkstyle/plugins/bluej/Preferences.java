@@ -20,17 +20,14 @@
 
 package com.puppycrawl.tools.checkstyle.plugins.bluej;
 
-import java.awt.GridLayout;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 
-import javax.swing.JButton;
-import javax.swing.JFileChooser;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.*;
 
+import bluej.extensions.BlueJ;
 import bluej.extensions.PreferenceGenerator;
 
 /**
@@ -73,6 +70,8 @@ public class Preferences implements PreferenceGenerator
     /** extension key for properties file property */
     public static final String PROPS_FILE_KEY = "checkstyle.PropsFile";
 
+
+
     /**
      * Action listener for user click on Select button.
      * @author Rick Giles
@@ -98,15 +97,13 @@ public class Preferences implements PreferenceGenerator
         }
     }
 
-
     /**
      * Creates a <code>Preferences</code> object that manages
      * the Checkstyle extension panel of the BlueJ Preferences dialog.
      * Panel allows user to select a Checkstyle configuration and
      * properties files.
      */
-    public Preferences()
-    {
+    public Preferences() {
         mPanel = new JPanel();
         //mPanel.setLayout(new GridLayout(ROWS, COLS));
 
@@ -114,6 +111,9 @@ public class Preferences implements PreferenceGenerator
         labelPanel.setLayout(new GridLayout(ROWS, 1));
         labelPanel.add(new JLabel("Configuration File"));
         labelPanel.add(new JLabel("Properties File"));
+        labelPanel.add(new JLabel("PMD Path"));
+
+
         mPanel.add(labelPanel);
 
         final JPanel fieldPanel = new JPanel();
@@ -133,7 +133,6 @@ public class Preferences implements PreferenceGenerator
         mPropsFileButton.addActionListener(new ButtonListener());
         buttonPanel.add(mPropsFileButton);
         mPanel.add(buttonPanel);
-
         // Load the default value
         loadValues();
     }
@@ -155,6 +154,7 @@ public class Preferences implements PreferenceGenerator
         {
             CheckstyleExtension.getInstance().refreshView();
         }
+
     }
 
     /** @see bluej.extensions.PreferenceGenerator#loadValues() */
@@ -167,11 +167,12 @@ public class Preferences implements PreferenceGenerator
         mBeforePropsFileName = manager.getPropsFileName();
         mConfigFileTextField.setText(mBeforeConfigFileName);
         mPropsFileTextField.setText(mBeforePropsFileName);
+
     }
 
-    /** @see bluej.extensions.PreferenceGenerator#getPanel() */
     public JPanel getPanel()
     {
         return mPanel;
     }
+
 }
