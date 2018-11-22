@@ -54,4 +54,4 @@ under QualityAssessmentTools-0.5.1.jar.
 
 #### Licenses
 
-This extension utilizes several tools that come with their own licenses.  Licenses for specific tools can be found in their individual directories under [src](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/master/src/QAT/com/SoftwareExtensionRenovators/toolbox).
+This extension utilizes several tools that come with their own licenses.  Licenses for specific tools can be found in their individual directories under [src](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/tree/FifthDelivery/src/QAT/com/SoftwareExtensionRenovators/toolbox).
