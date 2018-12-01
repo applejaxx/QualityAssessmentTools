@@ -22,12 +22,12 @@ The main goal of this extension is to provide [BlueJ](https://bluej.org/) users 
 Each tool in the current extension is modular to allow for easier addition and maintenance of individual quality assessment BlueJ tools.  
 
 #### Requirements
-* [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
+* [BlueJ](https://bluej.org/) 4.1.4 running on JDK 8 or higher.
 * [PMD](https://sourceforge.net/projects/pmd/files/pmd/) latest version.
 
 #### Downloads
 The latest version of the QualityAssessmentTools can be found [on the GitHub repository](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools)
-under QualityAssessmentTools-0.5.1.jar.
+under QualityAssessmentTools-0.6.1.jar.
 
 #### Installation Instructions
 * Download the latest [QualityAssessmentTools-0.6.1.jar](https://github.com/SoftwareExtensionRenovators/QualityAssessmentTools/blob/master/QualityAssessmentTools-0.6.1.jar)
@@ -60,7 +60,7 @@ under QualityAssessmentTools-0.5.1.jar.
   
 #### Ant Tasks
 
-Use ant tasks to compile and build JAR file required to install the QualityAssessmentTools extension.  Navigate to directory where build.xml is stored:  
+Use ant tasks to compile and build the JAR file required for installation of the QualityAssessmentTools extension.  Navigate to directory where build.xml is stored:  
       
       $ ant       : compiles source code and builds project jar file. 
       $ ant clean : deletes all files and folders related to compiled code
