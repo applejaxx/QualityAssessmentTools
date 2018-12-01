@@ -19,6 +19,8 @@
 This project is to provide an extension that can easily incorporate additional code quality tool extensions.
 The main goal of this extension is to provide [BlueJ](https://bluej.org/) users the ability to check their code with code quality assessment tools. At the current stage, the QualityAssessmentTools extension provides Checkstyle and PMD, which helps BlueJ users write Java code that complies to a coding standards. 
 
+Each tool in the current extension is modular to allow for easier addition and maintenance of individual quality assessment BlueJ tools.  
+
 #### Requirements
 * [BlueJ](https://bluej.org/) 4.1.X running on JDK 8 or higher.
 * [PMD](https://sourceforge.net/projects/pmd/files/pmd/) latest version.
@@ -49,9 +51,12 @@ under QualityAssessmentTools-0.5.1.jar.
     * In the Preferences panel, click on the `Extensions` tab.
     * In the "Checkstyle" section, enter the file name for the checkstyle configuration XML file and/or properties file you wish to use.
 * Select **PMD** from drop down menu:
+
   * To use PMD, download the current PMD update [here](https://sourceforge.net/projects/pmd/files/pmd/6.9.0). This version of this extension does not include PMD so you must install PMD under your operating system of choice. First step is to install PMD. You can install PMD from a prebuilt file or download it and build it yourself. Remember the path under where you have extracted the zip file, e.g. under Linux you could install it under ~/pmd-bin-6.9.0/. Under Windows it is usually most convenient to install PMD in the root so as to avoid spaces in directory names, (ie: Program Files) or PMD might not execute properly; the installation path could be c:\pmd-bin-6.9.0\.
+  
   * After installing the Quality Assessment Extension in BlueJ, go to "Tools / Preferences / Extensions". Select or enter the    "Path to PMD installation" that you have remembered from step one above. You can also fine-tune the "PMD Options"; by default, the rulesets "java-quickstart" are executed.
-  * Please see the PMD documentation for the rulesets available.
+  
+  * Please see the PMD documentation for current rulesets available.
   
 #### Ant Tasks
 
