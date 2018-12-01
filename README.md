@@ -41,7 +41,7 @@ under QualityAssessmentTools-0.5.1.jar.
 
 #### How to use
 * In BlueJ, select **Quality Assessment Tool** from the **Tools** menu.
-* Select **CheckStyle** from drop down menu **after compiling code.**.
+* Select **CheckStyle** from drop down menu **after compiling code**.
   * The extension uses its built-in [`default_checks.xml`](https://github.com/MetroCS/checkstyle4bluej/blob/master/docs/default_checks.xml) file unless you specify a different configuration file in Preferences.
 
   * To specify the Checkstyle configuration file or properties file:
